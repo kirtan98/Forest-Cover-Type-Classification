@@ -16,7 +16,7 @@ The algorithms applied in this project include:
 -Gradient Boosting Classifier
 -Decision Tree Classifier
 
-After thorough evaluation, the RandomForestClassifier emerged as the most effective algorithm for predicting forest cover types. The achieved accuracy score is an impressive 0.845, demonstrating the model's robust predictive capability.
+After a thorough evaluation, the RandomForestClassifier emerged as the most effective algorithm for predicting forest cover types. The achieved accuracy score is an impressive 0.845, demonstrating the model's robust predictive capability.
 
 ## Optimal Parameters
 The optimal hyperparameters for the RandomForestClassifier were determined using GridSearchCV, a technique that systematically explores various hyperparameter combinations to find the best-performing set. The parameters obtained from GridSearchCV for the RandomForestClassifier are as follows:
