@@ -10,11 +10,11 @@ This project focuses on predicting forest cover types using a variety of classif
 
 ## Algorithms and Performance
 The algorithms applied in this project include:
--Logistic Regression
--Random Forest Classifier
--Extra Trees Classifier
--Gradient Boosting Classifier
--Decision Tree Classifier
+- Logistic Regression
+- Random Forest Classifier
+- Extra Trees Classifier
+- Gradient Boosting Classifier
+- Decision Tree Classifier
 
 After a thorough evaluation, the RandomForestClassifier emerged as the most effective algorithm for predicting forest cover types. The achieved accuracy score is an impressive 0.845, demonstrating the model's robust predictive capability.
 
