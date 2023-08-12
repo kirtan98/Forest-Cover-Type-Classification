@@ -14,9 +14,9 @@ After a thorough evaluation, the RandomForestClassifier emerged as the most effe
 The optimal hyperparameters for the RandomForestClassifier were determined using GridSearchCV, a technique that systematically explores various hyperparameter combinations to find the best-performing set. The parameters obtained from GridSearchCV for the RandomForestClassifier are as follows:
 
 bootstrap: True
-class_weight: 'balanced'
-criterion: 'entropy'
-max_features: 'auto'
+class_weight: balanced
+criterion: entropy
+max_features: auto
 min_samples_leaf: 1
 min_samples_split: 2
 n_estimators: 500
