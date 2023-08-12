@@ -1,13 +1,5 @@
 # Forest Cover Type Prediction using scikit-learn Algorithms
 
-This project focuses on predicting forest cover types using a variety of classification algorithms provided by the scikit-learn library in Python. The algorithms utilized in this project are:
-
-- Logistic Regression: A linear classification algorithm often used for binary and multi-class classification tasks.
-- Random Forest Classifier: An ensemble method that builds multiple decision trees and combines their predictions for improved accuracy and reduced overfitting.
-- Extra Trees Classifier: Similar to Random Forest, Extra Trees builds multiple decision trees with random splits to enhance diversity among trees.
-- Gradient Boosting Classifier: An ensemble technique that builds decision trees sequentially to correct errors of the previous models, leading to higher accuracy.
-- Decision Tree Classifier: A basic algorithm that creates a decision tree by recursively partitioning the feature space based on specific criteria.
-
 ## Algorithms and Performance
 The algorithms applied in this project include:
 - Logistic Regression
