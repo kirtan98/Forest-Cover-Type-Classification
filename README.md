@@ -1,25 +1,27 @@
 # Forest Cover Type Prediction using scikit-learn Algorithms
 
-## Algorithms and Performance
-The algorithms applied in this project include:
+This repository contains a machine learning project focused on predicting forest cover types using various classification algorithms from the scikit-learn library. The dataset used for this project is the Kaggle Forest Cover Type dataset.
+
+## Algorithms Explored
+
 - Logistic Regression
 - Random Forest Classifier
 - Extra Trees Classifier
 - Gradient Boosting Classifier
 - Decision Tree Classifier
 
-After a thorough evaluation, the RandomForestClassifier emerged as the most effective algorithm for predicting forest cover types. The achieved accuracy score is an impressive 0.845, demonstrating the model's robust predictive capability.
+## Best Algorithm and Hyperparameters
 
-## Optimal Parameters
-The optimal hyperparameters for the RandomForestClassifier were determined using GridSearchCV, a technique that systematically explores various hyperparameter combinations to find the best-performing set. The parameters obtained from GridSearchCV for the RandomForestClassifier are as follows:
+After thorough experimentation, the RandomForestClassifier was found to be the best-performing algorithm for this task. The optimal hyperparameters for the RandomForestClassifier were identified using GridSearchCV, resulting in an accuracy of 0.845.
 
-bootstrap: True
-class_weight: balanced
-criterion: entropy
-max_features: auto
-min_samples_leaf: 1
-min_samples_split: 2
-n_estimators: 500
+Best Parameters:
+- bootstrap: True
+- class_weight: balanced
+- criterion: entropy
+- max_features: auto
+- min_samples_leaf: 1
+- min_samples_split: 2
+- n_estimators: 500
 
 ## Reference:
 ### Dataset Source
