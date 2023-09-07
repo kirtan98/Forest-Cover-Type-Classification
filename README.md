@@ -8,6 +8,7 @@ This repository contains a machine learning project focused on predicting forest
 - Random Forest Classifier
 - Extra Trees Classifier
 - Gradient Boosting Classifier
+- HistGradient Boosting Classifier
 - Decision Tree Classifier
 
 ## Best Algorithm and Hyperparameters
