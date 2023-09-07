@@ -24,6 +24,56 @@ Best Parameters:
 - min_samples_split: 2
 - n_estimators: 500
 
+## Stacking Classifier Experiment 
+To further enhance our predictive model, we implemented a Stacking Classifier. We conducted experiments in four different cases to assess its performance:
+### Case 1: All Algorithms with Their Hyperparameters
+- Base Classifiers:
+  - LogisticRegression
+  - ExtraTreesClassifier
+  - DecisionTreeClassifier
+  - GradientBoostingClassifier
+  - HistGradientBoostingClassifier
+- Meta-Classifier:
+  - RandomForestClassifier
+
+### Case 2: Ensemble Algorithms with Their Hyperparameters
+- Base Classifiers:
+  - ExtraTreesClassifier
+  - GradientBoostingClassifier
+  - HistGradientBoostingClassifier
+- Meta-Classifier:
+  - RandomForestClassifier
+
+### Case 3: Best Accuracy Algorithms with Their Hyperparameters
+- Base Classifiers:
+  - ExtraTreesClassifier
+  - GradientBoostingClassifier
+  - DecisionTreeClassifier
+
+- Meta-Classifier:
+  - RandomForestClassifier
+### Case 4: Algorithms with Their Hyperparameters
+
+- Base Classifiers:
+  - LogisticRegression
+  - RandomForestClassifier
+  - DecisionTreeClassifier
+  - GradientBoostingClassifier
+
+- Meta-Classifier:
+  - ExtraTreesClassifier
+
+#### Results
+
+After conducting these experiments, we found that **Case 1** yielded the best results:
+
+- Model Accuracy: 0.8596
+- Test Data Accuracy: 0.8585
+
+This case involved using all algorithms with their respective hyperparameters as base classifiers and a RandomForestClassifier as the meta-classifier. It achieved the highest accuracy on our dataset.
+
+Feel free to explore the experiment details and results in more depth within this repository. You can find the code, data, and additional information in the project's files.
+
 ## Reference:
 ### Dataset Source
 Visit https://www.kaggle.com/c/forest-cover-type-prediction/data
